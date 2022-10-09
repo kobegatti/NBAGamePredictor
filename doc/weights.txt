@@ -1,0 +1,21 @@
+Initial - 2021-2022 NBA Stats
+	Each stat ranked in descending order. (_) is the position of the first non-playoff team.
+	The higher the number => the more playoff teams had a better stat
+
+.34 - 3P% (13)
+.13 - PPG (11)
+.13 - APG (9)
+.13 - TOV (8)
+.08  - SPG (8)
+.08  - RPG (4)
+.08  - FG% (4)
+.03  - BPG (4)
+
+.34 - 3P% 
+.13 - PPG 
+.13 - APG 
+(-).13 - TOV 
+.8  - SPG 
+.8  - RPG 
+.8  - FG% 
+.3  - BPG 
