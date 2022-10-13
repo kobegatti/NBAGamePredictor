@@ -8,10 +8,10 @@ from datetime import date
 statsURL = "https://www.basketball-reference.com/leagues/NBA_2022.html"
 thisYearStatsURL = "https://www.basketball-reference.com/leagues/NBA_2023.html"
 
-records = 'data/2022-23_WL_records.csv'
+records = 'data/2022-23WLRecords.csv'
 
-currentPredictions = 'data/2022-23_Predictions.csv'
-todaysGames = 'data/todays_Games.csv'
+currentPredictions = 'data/2022-23Predictions.csv'
+todaysGames = 'data/todaysGames.csv'
 
 lastSeasonPath = 'data/2021-22.csv'
 thisSeasonPath = 'data/2022-23.csv'
