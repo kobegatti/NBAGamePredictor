@@ -8,10 +8,10 @@ from datetime import date
 statsURL = "https://www.basketball-reference.com/leagues/NBA_2022.html"
 thisYearStatsURL = "https://www.basketball-reference.com/leagues/NBA_2023.html"
 
-records = 'data/2022-23_WL_records.csv'
+records = 'data/2022-23WLRecords.csv'
 
-currentPredictions = 'data/2022-23_Predictions.csv'
-todaysGames = 'data/todays_Games.csv'
+currentPredictions = 'data/2022-23Predictions.csv'
+todaysGames = 'data/todaysGames.csv'
 
 lastSeasonPath = 'data/2021-22.csv'
 thisSeasonPath = 'data/2022-23.csv'
@@ -168,23 +168,23 @@ def calculate(predictionsData, awayTeam, awayLastSeason, awayThisSeason,
     
     if (homeTotalScore > awayTotalScore):
         predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_W'] += 1
-        game.at[0, 'Predicted_W'] = homeTeam
+        game.at[0, 'Predicted Winner'] = homeTeam
         predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_L'] += 1
         
     elif (awayTotalScore > homeTotalScore):
         predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_W'] += 1
-        game.at[0, 'Predicted_W'] = awayTeam
+        game.at[0, 'Predicted Winner'] = awayTeam
         predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_L'] += 1
         
     else:
         if (float(starPower.get(homeName)) >= float(starPower.get(awayName))): # home team has better players
             predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_W'] += 1
-            game.at[0, 'Predicted_W'] = homeTeam
+            game.at[0, 'Predicted Winner'] = homeTeam
             predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_L'] += 1
             
         else:
             predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_W'] += 1
-            game.at[0, 'Predicted_W'] = awayTeam
+            game.at[0, 'Predicted Winner'] = awayTeam
             predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_L'] += 1
     
     return game
