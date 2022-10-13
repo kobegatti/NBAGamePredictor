@@ -1,11 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
    <head>
       <h1 style="color:White;background-color:#17408B;padding:0px;" align="center">2022-2023 NBA Game Predictor <img src="images/NBA_logo.png" style="background-color:DodgerBlue"width="300" height="300" align="center"></h1>
+      <style>
+      * { font-family: Arial, Helvetica, sans-serif;
+          box-sizing: border-box;
+      }
+      table {
+      }
+      table td {
+         padding: 5px;
+         border: 1px solid #000;
+      }
+      </style>
    </head>
    <body>
-      <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+      <div>
+         <h2 style="color:#C9082A" align="center">Today's Games</h2>
+         <div align="center" id="current_date"></br></div>
+         <script>
+         document.getElementById("current_date").innerHTML = Date();
+         </script>
+         <table align="center" id="todays_games"></table>
+         <br>
+
+         <h2 style="color:#17408B">2022-23 Actual Records</h2>
+         <table style="float: left; margin-right:30px" id="current_records"></table>
+
+         <h2 style="color:#17408B">2022-23 Predicted Records</h2>
+         <table style="float: left" id="predicted_records"></table>
+      </div>
+
+      <script>
+      window.onload = () => {
+         var table = document.getElementById("current_records");
+
+         fetch("2022-23/data/2022-23WLRecords.csv")
+         .then(res => res.text())
+         .then(csv => {
+            console.log(csv)
+            table.innerHTML = "";
+
+            let rows = csv.split("\r\n");
+
+            for (let row of rows) {
+               let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
+               //console.log(cols);
+               if (cols != null) {
+                  //console.log(cols[0]);
+                  if (cols[0] == "Team") {
+                     cols.unshift("Index")
+                  }
+                  let tr = table.insertRow();
+                  for (let col of cols) {
+                     let td = tr.insertCell();
+                     td.innerHTML = col.replace(/(^"|"$)/g, "");
+                  }
+               }
+            }
+         });
+         var predicted = document.getElementById("predicted_records");
+
+         fetch("2022-23/data/2022-23Predictions.csv")
+         .then(res => res.text())
+         .then(csv => {
+            //console.log(csv);
+            predicted.innerHTML = "";
+
+            let rows = csv.split("\r\n");
+
+            for (let row of rows) {
+               let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
+               console.log(cols);
+               if (cols != null) {
+                  //console.log(cols[0]);
+                  if (cols[0] == "Unnamed: 0") {
+                     cols[0] = "Index";
+                  }
+                  let tr = predicted.insertRow();
+                  for (let col of cols) {
+                     let td = tr.insertCell();
+                     td.innerHTML = col.replace(/(^"|"$)/g, "");
+                  }
+               }
+            }
+         });
+
+         var todaysGames = document.getElementById("todays_games");
+
+         fetch("2022-23/data/todaysGames.csv")
+         .then(res => res.text())
+         .then(csv => {
+            console.log(csv);
+            todaysGames.innerHTML = "";
+
+            let rows = csv.split("\r\n");
+
+            for (let row of rows) {
+               let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
+               //console.log(cols);
+               if (cols != null) {
+                  //console.log(cols[0]);
+                  let tr = todaysGames.insertRow();
+                  for (let col of cols) {
+                     let td = tr.insertCell();
+                     td.innerHTML = col.replace(/(^"|"$)/g, "");
+                  }
+               }
+            }
+         });
+
+      };
+      </script>
    </body>
 </html>
-
 
 

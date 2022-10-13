@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 if __name__ == '__main__':
-    filePath = "data/2022-23_Predictions.csv"
+    filePath = "data/2022-23Predictions.csv"
     url = "https://www.basketball-reference.com/leagues/NBA_2023.html"
     
     data = requests.get(url).text
