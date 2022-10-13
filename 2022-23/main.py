@@ -168,23 +168,23 @@ def calculate(predictionsData, awayTeam, awayLastSeason, awayThisSeason,
     
     if (homeTotalScore > awayTotalScore):
         predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_W'] += 1
-        game.at[0, 'Predicted_W'] = homeTeam
+        game.at[0, 'Predicted Winner'] = homeTeam
         predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_L'] += 1
         
     elif (awayTotalScore > homeTotalScore):
         predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_W'] += 1
-        game.at[0, 'Predicted_W'] = awayTeam
+        game.at[0, 'Predicted Winner'] = awayTeam
         predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_L'] += 1
         
     else:
         if (float(starPower.get(homeName)) >= float(starPower.get(awayName))): # home team has better players
             predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_W'] += 1
-            game.at[0, 'Predicted_W'] = homeTeam
+            game.at[0, 'Predicted Winner'] = homeTeam
             predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_L'] += 1
             
         else:
             predictionsData.loc[predictionsData['Team'] == awayTeam, 'Predicted_W'] += 1
-            game.at[0, 'Predicted_W'] = awayTeam
+            game.at[0, 'Predicted Winner'] = awayTeam
             predictionsData.loc[predictionsData['Team'] == homeTeam, 'Predicted_L'] += 1
     
     return game
