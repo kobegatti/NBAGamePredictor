@@ -78,7 +78,7 @@
             console.log(rows);
 
             for (let row of rows) {
-               let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
+               let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)\\n/g);
                console.log(cols);
                if (cols != null) {
                   //console.log(cols[0]);
