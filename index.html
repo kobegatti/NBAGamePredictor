@@ -77,6 +77,15 @@
             let rows = csv.split("/\r\n|\n|\r/");
             console.log(rows);
 
+            var rows = [];
+
+            for (index = 0; index < rows.length; index++)
+            {
+               if (rows[index].find("\n") {
+                  console.log(rows[index]);
+               }
+            }
+
             for (let row of rows) {
                let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)\\n/g);
                console.log(cols);
