@@ -70,7 +70,7 @@
          fetch("2022-23/data/2022-23Predictions.csv")
          .then(res => res.text())
          .then(csv => {
-            //console.log(csv);
+            console.log(csv);
             predicted.innerHTML = "";
 
             let rows = csv.split("\r\n");
