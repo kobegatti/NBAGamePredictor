@@ -74,15 +74,20 @@
             console.log(csv);
             predicted.innerHTML = "";
 
-            let rows = csv.split("\\n");
+            let rows = csv.split("\n");
             console.log(rows);
+
+            for (index = 0; index < rows.length; index++)
+            {
+               console.log(rows[index]);
+            }
 
             for (let row of rows) {
                let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)\\n/g);
                console.log(cols);
                if (cols != null) {
                   //console.log(cols[0]);
-                  if (cols[0] == "Unnamed: 0") {
+                  if (cols[0] == "") {
                      cols[0] = "Index";
                   }
                   let tr = predicted.insertRow();
