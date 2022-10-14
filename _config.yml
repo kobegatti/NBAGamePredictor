@@ -2,5 +2,5 @@
 name: NBA Game Predictor
 description: Predicting NBA game outcomes with statistics
 url: "https://kobegatti.github.io/NBAGamePredictor/"
-markdown: kramdown
+markdown: html 
 highlighter: rogue
