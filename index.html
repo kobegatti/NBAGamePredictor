@@ -47,7 +47,7 @@
             console.log(csv)
             table.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("/\r\n|\n|\r/");
             console.log(rows);
 
             for (let row of rows) {
@@ -74,7 +74,7 @@
             console.log(csv);
             predicted.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("/\r\n|\n|\r/");
             console.log(rows);
 
             for (let row of rows) {
@@ -102,7 +102,7 @@
             console.log(csv);
             todaysGames.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("/\r\n|\n|\r/");
             console.log(rows);
 
             for (let row of rows) {
