@@ -217,7 +217,7 @@ def predict(todaysDate):
     
     tr_elements = soup.find("table", {"id" : "schedule"}).find_all('tr')
     
-    day = '18'
+    #day = '18'
     
     for row in tr_elements:
         columns = row.find_all()
