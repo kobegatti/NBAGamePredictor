@@ -87,8 +87,8 @@
                console.log(cols);
                if (cols != null) {
                   console.log(cols[0]);
-                  if (cols[0] == "") {
-                     cols[0] = "Index";
+                  if (cols[0] == "Team") {
+                     cols.unshift("Index")
                   }
                   let tr = predicted.insertRow();
                   for (let col of cols) {
