@@ -41,7 +41,7 @@
             console.log(csv)
             table.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("\n");
 
             for (let row of rows) {
                let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
@@ -67,7 +67,7 @@
             //console.log(csv);
             predicted.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("\n");
 
             for (let row of rows) {
                let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
@@ -94,7 +94,7 @@
             console.log(csv);
             todaysGames.innerHTML = "";
 
-            let rows = csv.split("\r\n");
+            let rows = csv.split("\n");
 
             for (let row of rows) {
                let cols = row.match(/(?:\"([^/"]*(?:\"\"[^\"]*)*)\")|([^\",]+)/g);
