@@ -1,6 +1,0 @@
-#Jekyll configuration
-name: NBA Game Predictor
-description: Predicting NBA game outcomes with statistics
-url: "https://kobegatti.github.io/NBAGamePredictor/"
-markdown: GFM 
-highlighter: rogue
