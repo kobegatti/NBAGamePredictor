@@ -10,7 +10,7 @@ thisYearStatsURL = "https://www.basketball-reference.com/leagues/NBA_2023.html"
 
 records = 'data/2022-23WLRecords.csv'
 
-currentPredictions = 'data/2022-23Predictions.csv'
+currentPredictions = 'data/2022-23_Predictions.csv'
 todaysGames = 'data/todaysGames.csv'
 
 lastSeasonPath = 'data/2021-22.csv'
