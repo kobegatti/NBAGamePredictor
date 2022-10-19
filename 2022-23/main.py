@@ -55,8 +55,8 @@ def getActualRecords(filePath, url):
         
         if columns != [] and len(columns[1].text.strip()) > 1:
             teamName = columns[1].text.strip()
-            actual_wins = int(columns[2].text.strip())
-            actual_losses = int(columns[3].text.strip())
+            actual_wins = int(columns[2].text.strip().replace("(", "").replace(")", ""))
+            actual_losses = int(columns[3].text.strip().replace("(", "").replace(")", ""))
             
             df = pd.DataFrame({'Team': [teamName], 'Actual_W': [actual_wins],
                               'Actual_L': [actual_losses]})
@@ -71,8 +71,8 @@ def getActualRecords(filePath, url):
         
         if columns != [] and len(columns[1].text.strip()) > 1:
             teamName = columns[1].text.strip()
-            actual_wins = int(columns[2].text.strip())
-            actual_losses = int(columns[3].text.strip())
+            actual_wins = int(columns[2].text.strip().replace("(", "").replace(")", ""))
+            actual_losses = int(columns[3].text.strip().replace("(", "").replace(")", ""))
             
             df = pd.DataFrame({'Team': [teamName], 'Actual_W': [actual_wins],
                               'Actual_L': [actual_losses]})

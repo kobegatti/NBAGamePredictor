@@ -26,8 +26,8 @@ if __name__ == '__main__':
         
         if columns != [] and len(columns[1].text.strip()) > 1:
             teamName = columns[1].text.strip()
-            actual_wins = int(columns[2].text.strip())
-            actual_losses = int(columns[3].text.strip())
+            actual_wins = int(columns[2].text.strip().replace("(", "").replace(")", ""))
+            actual_losses = int(columns[3].text.strip().replace("(", "").replace(")", ""))
             
             df = pd.DataFrame({'Team': [teamName], 'Predicted_W': [0], 
                                'Predicted_L': [0], 'Predicted_Total': [0], 
@@ -43,8 +43,8 @@ if __name__ == '__main__':
         
         if columns != [] and len(columns[1].text.strip()) > 1:
             teamName = columns[1].text.strip()
-            actual_wins = int(columns[2].text.strip())
-            actual_losses = int(columns[3].text.strip())
+            actual_wins = int(columns[2].text.strip().replace("(", "").replace(")", ""))
+            actual_losses = int(columns[3].text.strip().replace("(", "").replace(")", ""))
             
             df = pd.DataFrame({'Team': [teamName], 'Predicted_W': [0], 
                                'Predicted_L': [0], 'Predicted_Total': [0], 
