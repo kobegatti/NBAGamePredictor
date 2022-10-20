@@ -1,31 +1,31 @@
 ,Team,Actual_W,Actual_L
-0,Boston Celtics,1,0
-1,Washington Wizards,0,0
-2,Atlanta Hawks,0,0
-3,Toronto Raptors,0,0
-4,Orlando Magic,0,0
-5,New York Knicks,0,0
-6,Milwaukee Bucks,0,0
-7,Miami Heat,0,0
-8,Indiana Pacers,0,0
-9,Cleveland Cavaliers,0,0
-10,Brooklyn Nets,0,0
-11,Chicago Bulls,0,0
-12,Charlotte Hornets,0,0
-13,Detroit Pistons,0,0
-14,Philadelphia 76ers,0,1
-15,Golden State Warriors,1,0
-16,Los Angeles Clippers,0,0
-17,Houston Rockets,0,0
-18,Utah Jazz,0,0
-19,San Antonio Spurs,0,0
-20,Sacramento Kings,0,0
-21,Portland Trail Blazers,0,0
-22,Phoenix Suns,0,0
-23,Oklahoma City Thunder,0,0
-24,New Orleans Pelicans,0,0
-25,Minnesota Timberwolves,0,0
-26,Dallas Mavericks,0,0
-27,Denver Nuggets,0,0
-28,Memphis Grizzlies,0,0
-29,Los Angeles Lakers,0,1
+0,Boston Celtics,1.0,0.0
+1,Washington Wizards,1.0,0.0
+2,Toronto Raptors,1.0,0.0
+3,Detroit Pistons,1.0,0.0
+4,Charlotte Hornets,1.0,0.0
+5,Atlanta Hawks,1.0,0.0
+6,Chicago Bulls,1.0,0.0
+7,Milwaukee Bucks,0.0,0.0
+8,Cleveland Cavaliers,0.0,1.0
+9,Brooklyn Nets,0.0,1.0
+10,Philadelphia 76ers,0.0,1.0
+11,Orlando Magic,0.0,1.0
+12,New York Knicks,0.0,1.0
+13,Miami Heat,0.0,1.0
+14,Indiana Pacers,0.0,1.0
+15,Memphis Grizzlies,1.0,0.0
+16,Minnesota Timberwolves,1.0,0.0
+17,New Orleans Pelicans,1.0,0.0
+18,Golden State Warriors,1.0,0.0
+19,Phoenix Suns,1.0,0.0
+20,Portland Trail Blazers,1.0,0.0
+21,Utah Jazz,1.0,0.0
+22,Los Angeles Clippers,0.0,0.0
+23,Los Angeles Lakers,0.0,1.0
+24,Oklahoma City Thunder,0.0,1.0
+25,Houston Rockets,0.0,1.0
+26,Sacramento Kings,0.0,1.0
+27,San Antonio Spurs,0.0,1.0
+28,Denver Nuggets,0.0,1.0
+29,Dallas Mavericks,0.0,1.0
