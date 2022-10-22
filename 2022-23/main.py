@@ -242,9 +242,9 @@ def predict(todaysDate):
                 
                 dataTableToday = pd.concat([dataTableToday, game], ignore_index=True)
                 
-    for i in range(len(predictions_data.index)):
-        predictions_data.loc[i, 'Predicted_Total'] = predictions_data.loc[i, 'Predicted_W'] + predictions_data.loc[i, 'Predicted_L']
-        predictions_data.loc[i, 'Error_Rate'] = float(abs(predictions_data.loc[i, 'Predicted_W'] - records_data.loc[i, 'Actual_W']) / TOTAL_GAMES)
+    for team in records_data.Team:
+        predictions_data.loc[predictions_data['Team'] == team, 'Predicted_Total'] = float(predictions_data.loc[predictions_data['Team'] == team]['Predicted_W']) + float(predictions_data.loc[predictions_data['Team'] == team]['Predicted_L'])
+        predictions_data.loc[predictions_data['Team'] == team, 'Error_Rate'] = abs(float(predictions_data.loc[predictions_data['Team'] == team]['Predicted_W']) - float(records_data.loc[records_data['Team'] == team]['Actual_W'])) / TOTAL_GAMES
         
     predictions_data.to_csv(currentPredictions, index=False)
     dataTableToday.to_csv(todaysGames, index=False)
