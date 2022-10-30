@@ -1,31 +1,31 @@
 Unnamed: 0,Team,Predicted_W,Predicted_L,Predicted_Total,Error_Rate
-0,Boston Celtics,1.0,4.0,5.0,0.024390243902439025
-1,Washington Wizards,3.0,2.0,5.0,0.0
+0,Boston Celtics,2.0,4.0,6.0,0.012195121951219513
+1,Washington Wizards,3.0,3.0,6.0,0.0
 2,Atlanta Hawks,3.0,3.0,6.0,0.012195121951219513
 3,Toronto Raptors,4.0,2.0,6.0,0.012195121951219513
-4,Orlando Magic,2.0,4.0,6.0,0.012195121951219513
-5,New York Knicks,2.0,3.0,5.0,0.012195121951219513
-6,Milwaukee Bucks,4.0,1.0,5.0,0.0
+4,Orlando Magic,2.0,5.0,7.0,0.012195121951219513
+5,New York Knicks,2.0,4.0,6.0,0.012195121951219513
+6,Milwaukee Bucks,4.0,1.0,5.0,0.012195121951219513
 7,Miami Heat,3.0,4.0,7.0,0.012195121951219513
-8,Indiana Pacers,3.0,4.0,7.0,0.012195121951219513
-9,Cleveland Cavaliers,3.0,2.0,5.0,0.012195121951219513
+8,Indiana Pacers,3.0,4.0,7.0,0.0
+9,Cleveland Cavaliers,4.0,2.0,6.0,0.0
 10,Brooklyn Nets,4.0,2.0,6.0,0.036585365853658534
 11,Chicago Bulls,4.0,3.0,7.0,0.012195121951219513
-12,Charlotte Hornets,1.0,5.0,6.0,0.012195121951219513
-13,Detroit Pistons,4.0,2.0,6.0,0.036585365853658534
-14,Philadelphia 76ers,3.0,4.0,7.0,0.012195121951219513
-15,Golden State Warriors,5.0,1.0,6.0,0.024390243902439025
-16,Los Angeles Clippers,1.0,4.0,5.0,0.012195121951219513
-17,Houston Rockets,3.0,3.0,6.0,0.024390243902439025
-18,Utah Jazz,3.0,4.0,7.0,0.012195121951219513
-19,San Antonio Spurs,2.0,4.0,6.0,0.024390243902439025
-20,Sacramento Kings,4.0,1.0,5.0,0.04878048780487805
+12,Charlotte Hornets,1.0,5.0,6.0,0.024390243902439025
+13,Detroit Pistons,5.0,2.0,7.0,0.04878048780487805
+14,Philadelphia 76ers,3.0,4.0,7.0,0.0
+15,Golden State Warriors,5.0,2.0,7.0,0.024390243902439025
+16,Los Angeles Clippers,2.0,4.0,6.0,0.0
+17,Houston Rockets,3.0,4.0,7.0,0.024390243902439025
+18,Utah Jazz,3.0,4.0,7.0,0.024390243902439025
+19,San Antonio Spurs,3.0,4.0,7.0,0.012195121951219513
+20,Sacramento Kings,4.0,1.0,5.0,0.036585365853658534
 21,Portland Trail Blazers,2.0,4.0,6.0,0.036585365853658534
-22,Phoenix Suns,3.0,2.0,5.0,0.012195121951219513
-23,Oklahoma City Thunder,2.0,4.0,6.0,0.0
-24,New Orleans Pelicans,2.0,3.0,5.0,0.012195121951219513
-25,Minnesota Timberwolves,6.0,0.0,6.0,0.024390243902439025
-26,Dallas Mavericks,2.0,3.0,5.0,0.0
-27,Denver Nuggets,4.0,2.0,6.0,0.0
+22,Phoenix Suns,4.0,2.0,6.0,0.0
+23,Oklahoma City Thunder,2.0,4.0,6.0,0.012195121951219513
+24,New Orleans Pelicans,2.0,4.0,6.0,0.012195121951219513
+25,Minnesota Timberwolves,6.0,1.0,7.0,0.024390243902439025
+26,Dallas Mavericks,3.0,3.0,6.0,0.012195121951219513
+27,Denver Nuggets,5.0,2.0,7.0,0.012195121951219513
 28,Memphis Grizzlies,2.0,4.0,6.0,0.024390243902439025
-29,Los Angeles Lakers,2.0,3.0,5.0,0.024390243902439025
+29,Los Angeles Lakers,2.0,4.0,6.0,0.024390243902439025
