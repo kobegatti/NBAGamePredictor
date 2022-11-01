@@ -204,6 +204,9 @@ def predict(todaysDate):
     month = todaysDate[0]
     day = todaysDate[1]
     year = todaysDate[2]
+
+    if (int(day) < 10):
+        day = str(int(day))
     
     dataTableToday = pd.DataFrame(data={'Date': [], 'Away': [], 
                                         'Home': [], 'Predicted Winner': []})
@@ -221,7 +224,8 @@ def predict(todaysDate):
         columns = row.find_all()
         
         if (columns != []) and (columns[0].text.strip() != "Date"):
-            if (columns[1].text.strip().find(month + " " + day + ", " + year) >= 0):
+            
+            if (columns[0].text.strip().find(month + " " + day + ", " + year) >= 0):
                 
                 awayTeam = columns[3].text.strip()
                 awayLastSeason = getTeamStats(last_season_data, 
