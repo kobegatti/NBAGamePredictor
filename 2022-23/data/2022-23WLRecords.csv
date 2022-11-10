@@ -1,31 +1,31 @@
 ,Team,Actual_W,Actual_L
-0,Milwaukee Bucks,9.0,1.0
-1,Cleveland Cavaliers,8.0,2.0
-2,Boston Celtics,7.0,3.0
-3,Atlanta Hawks,7.0,3.0
-4,Toronto Raptors,6.0,5.0
-5,Chicago Bulls,6.0,6.0
-6,Indiana Pacers,5.0,5.0
-7,New York Knicks,5.0,5.0
-8,Washington Wizards,5.0,6.0
-9,Philadelphia 76ers,5.0,6.0
-10,Brooklyn Nets,4.0,7.0
+0,Milwaukee Bucks,10.0,1.0
+1,Boston Celtics,8.0,3.0
+2,Cleveland Cavaliers,8.0,3.0
+3,Atlanta Hawks,7.0,4.0
+4,Toronto Raptors,7.0,5.0
+5,Chicago Bulls,6.0,7.0
+6,New York Knicks,5.0,6.0
+7,Washington Wizards,5.0,6.0
+8,Philadelphia 76ers,5.0,6.0
+9,Indiana Pacers,5.0,6.0
+10,Brooklyn Nets,5.0,7.0
 11,Miami Heat,4.0,7.0
-12,Charlotte Hornets,3.0,8.0
-13,Detroit Pistons,3.0,8.0
-14,Orlando Magic,2.0,9.0
-15,Utah Jazz,9.0,3.0
-16,Phoenix Suns,7.0,3.0
-17,Portland Trail Blazers,7.0,3.0
-18,Denver Nuggets,7.0,3.0
-19,Dallas Mavericks,6.0,3.0
-20,Memphis Grizzlies,7.0,4.0
-21,Los Angeles Clippers,6.0,5.0
-22,New Orleans Pelicans,5.0,5.0
-23,San Antonio Spurs,5.0,6.0
-24,Minnesota Timberwolves,5.0,6.0
-25,Oklahoma City Thunder,4.0,6.0
+12,Detroit Pistons,3.0,9.0
+13,Orlando Magic,3.0,9.0
+14,Charlotte Hornets,3.0,9.0
+15,Utah Jazz,10.0,3.0
+16,Phoenix Suns,8.0,3.0
+17,Portland Trail Blazers,8.0,3.0
+18,Denver Nuggets,8.0,3.0
+19,Memphis Grizzlies,8.0,4.0
+20,Dallas Mavericks,6.0,4.0
+21,Los Angeles Clippers,7.0,5.0
+22,New Orleans Pelicans,6.0,5.0
+23,San Antonio Spurs,5.0,7.0
+24,Minnesota Timberwolves,5.0,7.0
+25,Sacramento Kings,4.0,6.0
 26,Golden State Warriors,4.0,7.0
-27,Sacramento Kings,3.0,6.0
-28,Los Angeles Lakers,2.0,8.0
-29,Houston Rockets,2.0,9.0
+27,Oklahoma City Thunder,4.0,7.0
+28,Los Angeles Lakers,2.0,9.0
+29,Houston Rockets,2.0,10.0
