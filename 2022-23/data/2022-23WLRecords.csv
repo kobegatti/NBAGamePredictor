@@ -1,31 +1,31 @@
 ,Team,Actual_W,Actual_L
-0,Boston Celtics,13.0,3.0
-1,Milwaukee Bucks,11.0,4.0
-2,Atlanta Hawks,10.0,6.0
-3,Cleveland Cavaliers,10.0,6.0
-4,Indiana Pacers,9.0,6.0
-5,Washington Wizards,10.0,7.0
+0,Boston Celtics,13.0,4.0
+1,Milwaukee Bucks,12.0,4.0
+2,Cleveland Cavaliers,11.0,6.0
+3,Indiana Pacers,10.0,6.0
+4,Washington Wizards,10.0,7.0
+5,Atlanta Hawks,10.0,7.0
 6,Toronto Raptors,9.0,8.0
-7,Philadelphia 76ers,8.0,8.0
-8,Brooklyn Nets,8.0,9.0
-9,New York Knicks,8.0,9.0
-10,Miami Heat,7.0,10.0
-11,Chicago Bulls,6.0,10.0
-12,Orlando Magic,5.0,12.0
+7,New York Knicks,9.0,9.0
+8,Philadelphia 76ers,8.0,8.0
+9,Brooklyn Nets,8.0,9.0
+10,Chicago Bulls,7.0,10.0
+11,Miami Heat,7.0,11.0
+12,Orlando Magic,5.0,13.0
 13,Charlotte Hornets,4.0,14.0
 14,Detroit Pistons,3.0,15.0
-15,Utah Jazz,12.0,6.0
+15,Utah Jazz,12.0,7.0
 16,Phoenix Suns,10.0,6.0
-17,Portland Trail Blazers,10.0,6.0
-18,Denver Nuggets,10.0,6.0
+17,Denver Nuggets,10.0,6.0
+18,Los Angeles Clippers,11.0,7.0
 19,Sacramento Kings,9.0,6.0
-20,Memphis Grizzlies,10.0,7.0
-21,Los Angeles Clippers,10.0,7.0
-22,New Orleans Pelicans,9.0,7.0
+20,New Orleans Pelicans,10.0,7.0
+21,Memphis Grizzlies,10.0,7.0
+22,Portland Trail Blazers,10.0,7.0
 23,Dallas Mavericks,9.0,7.0
-24,Minnesota Timberwolves,8.0,8.0
-25,Golden State Warriors,8.0,9.0
-26,Oklahoma City Thunder,7.0,9.0
+24,Minnesota Timberwolves,9.0,8.0
+25,Golden State Warriors,8.0,10.0
+26,Oklahoma City Thunder,7.0,10.0
 27,Los Angeles Lakers,5.0,10.0
 28,San Antonio Spurs,6.0,12.0
 29,Houston Rockets,3.0,14.0
